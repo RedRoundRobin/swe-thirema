@@ -4,3 +4,6 @@
 [submodule "kafka-db"]
 	path = kafka-db
 	url = https://github.com/Maxelweb/swe-kafka-db
+[submodule "gateway"]
+	path = gateway
+	url = https://github.com/Maxelweb/swe-gateway
