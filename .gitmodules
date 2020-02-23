@@ -1,3 +1,6 @@
 [submodule "documentazione"]
 	path = documentazione
 	url = https://github.com/Maxelweb/swe-docs
+[submodule "kafka-db"]
+	path = kafka-db
+	url = https://github.com/Maxelweb/swe-kafka-db
