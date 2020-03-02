@@ -10,3 +10,6 @@
 [submodule "api"]
 	path = api
 	url = https://github.com/Maxelweb/swe-api
+[submodule "webapp"]
+	path = webapp
+	url = https://github.com/Maxelweb/swe-webapp
