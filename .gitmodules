@@ -7,3 +7,6 @@
 [submodule "gateway"]
 	path = gateway
 	url = https://github.com/Maxelweb/swe-gateway
+[submodule "api"]
+	path = api
+	url = https://github.com/Maxelweb/swe-api
