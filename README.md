@@ -14,7 +14,7 @@ Informatica, Università degli Studi di Padova
 
 ### Versione di prodotto
 
-:fire: Versione corrente: `+b0.10`
+:fire: Versione corrente: `+b0.11`
 
 
 ### Git submodules 
@@ -25,7 +25,7 @@ Informatica, Università degli Studi di Padova
 | [swe-docs](http://docs.redroundrobin.site) | `documentazione/`    |     `v2.x.x`  |
 | [swe-api](http://api.redroundrobin.site)   |       `api/`         | `v0.0.2-dev`  |
 | [swe-gateway](http://gateway.redroundrobin.site) | `gateway/`     | `v0.1.1-dev`  |
-| [swe-kafka-db](http://kafkadb.redroundrobin.site) | `kafka-db/`   | `v0.1.0-rc`   |
+| [swe-kafka-db](http://kafkadb.redroundrobin.site) | `kafka-db/`   | `v0.1.1-dev`  |
 | [swe-webapp](http://webapp.redroundrobin.site) |    `webapp/`     | `v0.0.1-dev`  |
 | [swe-telegram](http://telegram.redroundrobin.site) | `telegram/`  | n/d           |
 
