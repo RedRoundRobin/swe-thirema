@@ -29,6 +29,12 @@ Informatica, Università degli Studi di Padova
 | [swe-webapp](http://webapp.redroundrobin.site) |    `webapp/`     | `v0.0.1-dev`  |
 | [swe-telegram](http://telegram.redroundrobin.site) | `telegram/`  | n/d           |
 
+![SWE Docs Checker](https://github.com/RedRoundRobin/swe-docs/workflows/SWE%20Docs%20Checker/badge.svg)
+![SWE Gateway CI](https://github.com/RedRoundRobin/swe-gateway/workflows/SWE%20Gateway%20CI/badge.svg)
+![SWE API CI](https://github.com/RedRoundRobin/swe-api/workflows/SWE%20API%20CI/badge.svg)
+![SWE Kafka-DB CI](https://github.com/RedRoundRobin/swe-kafka-db/workflows/SWE%20Kafka-DB%20CI/badge.svg)
+![SWE Telegram CI](https://github.com/RedRoundRobin/swe-telegram/workflows/SWE%20Telegram%20CI/badge.svg)
+![SWE Webapp CI](https://github.com/RedRoundRobin/swe-webapp/workflows/SWE%20Webapp%20CI/badge.svg)
 
 ### Crediti
 
