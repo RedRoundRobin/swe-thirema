@@ -13,3 +13,6 @@
 [submodule "webapp"]
 	path = webapp
 	url = https://github.com/Maxelweb/swe-webapp
+[submodule "telegram-bot"]
+	path = telegram-bot
+	url = https://github.com/RedRoundRobin/swe-telegram
