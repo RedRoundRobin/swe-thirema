@@ -12,6 +12,8 @@ Informatica, Università degli Studi di Padova
 ---
 
 
+![Riot Logo](https://www.redroundrobin.site/images/riot.png)
+
 ### Versione di prodotto
 
 :fire: Versione corrente: `+b0.16`
