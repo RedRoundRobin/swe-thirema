@@ -16,7 +16,7 @@ Informatica, Università degli Studi di Padova
 
 ### Versione di prodotto
 
-:fire: Versione corrente: `+b0.16`
+:fire: Versione corrente: `+b0.17`
 
 
 ### Git submodules 
@@ -25,11 +25,11 @@ Informatica, Università degli Studi di Padova
 | Sub-module | Cartella | Versione software  |
 |---|---|---|
 | [swe-docs](http://docs.redroundrobin.site) | `documentazione/`    | `n/d`      |
-| [swe-api](http://api.redroundrobin.site)   |       `api/`         | `v0.3.0-rc`  |
+| [swe-api](http://api.redroundrobin.site)   |       `api/`         | `v0.4.1-rc`  |
 | [swe-gateway](http://gateway.redroundrobin.site) | `gateway/`     | `v0.2.0-rc`  |
 | [swe-kafka-db](http://kafkadb.redroundrobin.site) | `kafka-db/`   | `v0.2.1-rc`  |
 | [swe-webapp](http://webapp.redroundrobin.site) |    `webapp/`     | `v0.4.0-rc`  |
-| [swe-telegram](http://telegram.redroundrobin.site) | `telegram/`  | `v0.1.0-dev`  |
+| [swe-telegram](http://telegram.redroundrobin.site) | `telegram/`  | `v0.2.0-rc`  |
 
 
 ![SWE Docs Checker](https://github.com/RedRoundRobin/swe-docs/workflows/SWE%20Docs%20Checker/badge.svg)
