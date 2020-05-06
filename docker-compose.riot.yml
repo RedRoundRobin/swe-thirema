@@ -1,0 +1,54 @@
+#
+#  Version 1
+#
+#      ___         __  ___                    __  ___       __   _    
+#    / _ \___ ___/ / / _ \___  __ _____  ___/ / / _ \___  / /  (_)__ 
+#   / , _/ -_) _  / / , _/ _ \/ // / _ \/ _  / / , _/ _ \/ _ \/ / _ \
+#  /_/|_|\__/\_,_/ /_/|_|\___/\_,_/_//_/\_,_/ /_/|_|\___/_.__/_/_//_/
+#  
+#
+
+version: '3'
+
+networks:
+  kafka-net:
+    driver: bridge
+
+services:
+  api:
+    container_name: thirema-api
+    build: ./api
+    networks:
+      - kafka-net
+    ports:
+      - "9999:9999"
+
+  telegram_bot:
+    container_name: thirema-telegram-bot
+    build: ./telegram
+    networks:
+      - kafka-net
+    ports:
+      - "3000:3000"
+
+  gateway:
+    container_name: thirema-gateway
+    build: ./gateway
+    networks:
+      - kafka-net
+      
+  data_collector:
+    container_name: thirema-data-collector
+    build: ./kafka-db
+    networks:
+      - kafka-net
+
+  webapp:
+    container_name: thirema-webapp
+    build: ./webapp
+    networks:
+      - kafka-net
+    ports:
+      - "80:8000"
+  
+    
