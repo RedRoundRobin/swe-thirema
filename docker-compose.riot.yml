@@ -51,4 +51,66 @@ services:
     ports:
       - "80:8000"
   
+  timescale:
+    container_name: db-timescale
+    build: ./database/Timescale
+    networks:
+      - kafka-net
+    ports:
+      - "3456:5432"
+    volumes:
+      - 'timescale_data:/var/lib/postgresql/data'
+  
+  postgres:
+    container_name: db-postgre
+    build: ./database/Postgres
+    networks:
+      - kafka-net
+    ports:
+      - "6543:5432"
+    volumes:  
+      - 'postgres_data:/var/lib/postgresql/data'
+
+  zookeeper:
+    container_name: kafka-zookeeper
+    image: 'bitnami/zookeeper:3'
+    networks:
+      - kafka-net
+    ports: 
+      - '2181:2181'
+    volumes: 
+      - 'zookeeper_data:/bitnami'
+    environment: 
+      - ALLOW_ANONYMOUS_LOGIN=yes  
+
+  kafka:
+    container_name: kafka-core
+    image: 'bitnami/kafka:2'
+    networks:
+      - kafka-net
+    ports: 
+      - '9092:9092'
+      - '29092:29092'
+      - '29094:29094'
+    volumes: 
+      - 'kafka_data:/bitnami'
+    environment:
+      - KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper:2181
+      - ALLOW_PLAINTEXT_LISTENER=yes
+      - KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP=LISTENER_EXT:PLAINTEXT,LISTENER_INT:PLAINTEXT,REMOTE_EXT:PLAINTEXT
+      - KAFKA_CFG_LISTENERS=LISTENER_EXT://kafka:9092,LISTENER_INT://kafka:29092,REMOTE_EXT://kafka:29094
+      - KAFKA_CFG_ADVERTISED_LISTENERS=LISTENER_EXT://localhost:9092,LISTENER_INT://kafka-core:29092,REMOTE_EXT://core.host.redroundrobin.site:29094
+      - KAFKA_CFG_INTER_BROKER_LISTENER_NAME=LISTENER_INT
+    depends_on:
+      - zookeeper  
+
+volumes:
+  zookeeper_data:
+    driver: local
+  kafka_data:
+    driver: local
+  timescale_data:
+    driver: local
+  postgres_data:
+    driver: local 
     

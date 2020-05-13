@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#  Version 1
+#  Copyright 2020
 #      ___         __  ___                    __  ___       __   _    
 #    / _ \___ ___/ / / _ \___  __ _____  ___/ / / _ \___  / /  (_)__ 
 #   / , _/ -_) _  / / , _/ _ \/ // / _ \/ _  / / , _/ _ \/ _ \/ / _ \
@@ -31,7 +31,6 @@ errormex () {
 
 dockercompose_cmd () {
     docker-compose \
-        -f riot/docker-compose.yml \
         -f riot/docker-compose.riot.yml \
         $1
 }
