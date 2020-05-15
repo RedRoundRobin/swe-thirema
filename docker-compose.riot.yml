@@ -35,13 +35,7 @@ services:
     container_name: thirema-gateway
     build: ./gateway
     networks:
-      - kafka-net
-      
-  data_collector:
-    container_name: thirema-data-collector
-    build: ./kafka-db
-    networks:
-      - kafka-net
+      - kafka-net    
 
   webapp:
     container_name: thirema-webapp
@@ -103,6 +97,16 @@ services:
       - KAFKA_CFG_INTER_BROKER_LISTENER_NAME=LISTENER_INT
     depends_on:
       - zookeeper  
+
+  data_collector:
+    container_name: thirema-data-collector
+    build: ./kafka-db
+    networks:
+      - kafka-net
+    depends_on:
+      - kafka 
+      - postgres
+      - timescale    
 
 volumes:
   zookeeper_data:
