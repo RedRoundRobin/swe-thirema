@@ -1,4 +1,4 @@
-![RedRounRobinLogo](https://i.imgur.com/3Dcv4vs.png)
+![RedRounRobinLogo](./_extra/redroundrobin.png)
 
 # Things Relationship Management (ThiReMa)
 
@@ -11,25 +11,30 @@ Informatica, Università degli Studi di Padova
 
 ---
 
+[![Riot youtube](./_extra/banner-youtube.png)](https://www.youtube.com/playlist?list=PLPKYjnuIh1FA3b3jn_bwY_ztYzaFn2mIT)
 
-![Riot Logo](https://www.redroundrobin.site/images/riot.png)
+---
+
+[![Riot Logo](./_extra/riot.png)](https://github.com/RedRoundRobin/riot)
+
 
 ### Versione di prodotto
 
 :fire: Versione corrente: `+b1.0`
 
+- [Vai alla versione rilasciata 1.0](https://github.com/RedRoundRobin/riot)
 
 ### Git submodules 
 
 
 | Sub-module | Cartella | Versione software  |
 |---|---|---|
-| [swe-docs](http://docs.redroundrobin.site) | `documentazione/`    | `completed`      |
-| [swe-api](http://api.redroundrobin.site)   |       `api/`         | `v1.0.0-stable`  |
-| [swe-gateway](http://gateway.redroundrobin.site) | `gateway/`     | `v1.0.0-stable`  |
-| [swe-kafka-db](http://kafkadb.redroundrobin.site) | `kafka-db/`   | `v1.0.0-stable`  |
-| [swe-webapp](http://webapp.redroundrobin.site) |    `webapp/`     | `v1.0.0-stable`  |
-| [swe-telegram](http://telegram.redroundrobin.site) | `telegram/`  | `v1.0.0-stable`  |
+| [swe-docs](http://docs.redroundrobin.site) | `documentazione/`    | :heavy_check_mark:    |
+| [swe-api](http://api.redroundrobin.site)   |       `api/`         | `v1.0.0-stable` :heavy_check_mark:  |
+| [swe-gateway](http://gateway.redroundrobin.site) | `gateway/`     | `v1.0.0-stable` :heavy_check_mark:  |
+| [swe-kafka-db](http://kafkadb.redroundrobin.site) | `kafka-db/`   | `v1.0.0-stable` :heavy_check_mark:  |
+| [swe-webapp](http://webapp.redroundrobin.site) |    `webapp/`     | `v1.0.0-stable` :heavy_check_mark:  |
+| [swe-telegram](http://telegram.redroundrobin.site) | `telegram/`  | `v1.0.0-stable` :heavy_check_mark:  |
 
 
 ![SWE Docs Checker](https://github.com/RedRoundRobin/swe-docs/workflows/SWE%20Docs%20Checker/badge.svg)
