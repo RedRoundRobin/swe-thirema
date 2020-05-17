@@ -50,6 +50,13 @@ Informatica, Università degli Studi di Padova
 ![SWE Web App CI](https://github.com/RedRoundRobin/swe-webapp/workflows/SWE%20Web%20App%20CI/badge.svg)
 
 
+### Extra
+
+- [Video - Proof of concept #1 - RP](https://www.youtube.com/watch?v=IKbVdiBIoVk)
+- [Video - Proof of concept #2 - Arduino e Telegram](https://www.youtube.com/watch?v=fFZarXzEnZQ)
+- [Documentazione generata con OpenAPI](http://redroundrobin.github.io/api-docs)
+
+
 ### Licenza 
 
 GNU General Public License v3.0
