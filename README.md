@@ -16,7 +16,7 @@ Informatica, Università degli Studi di Padova
 
 ### Versione di prodotto
 
-:fire: Versione corrente: `+b0.18`
+:fire: Versione corrente: `+b1.0`
 
 
 ### Git submodules 
@@ -24,12 +24,12 @@ Informatica, Università degli Studi di Padova
 
 | Sub-module | Cartella | Versione software  |
 |---|---|---|
-| [swe-docs](http://docs.redroundrobin.site) | `documentazione/`    | `n/d`      |
-| [swe-api](http://api.redroundrobin.site)   |       `api/`         | `v1.0.0-rc`  |
-| [swe-gateway](http://gateway.redroundrobin.site) | `gateway/`     | `v1.0.0-rc`  |
-| [swe-kafka-db](http://kafkadb.redroundrobin.site) | `kafka-db/`   | `v1.0.0-rc`  |
-| [swe-webapp](http://webapp.redroundrobin.site) |    `webapp/`     | `v1.0.0-rc`  |
-| [swe-telegram](http://telegram.redroundrobin.site) | `telegram/`  | `v1.0.0-rc`  |
+| [swe-docs](http://docs.redroundrobin.site) | `documentazione/`    | `completed`      |
+| [swe-api](http://api.redroundrobin.site)   |       `api/`         | `v1.0.0-stable`  |
+| [swe-gateway](http://gateway.redroundrobin.site) | `gateway/`     | `v1.0.0-stable`  |
+| [swe-kafka-db](http://kafkadb.redroundrobin.site) | `kafka-db/`   | `v1.0.0-stable`  |
+| [swe-webapp](http://webapp.redroundrobin.site) |    `webapp/`     | `v1.0.0-stable`  |
+| [swe-telegram](http://telegram.redroundrobin.site) | `telegram/`  | `v1.0.0-stable`  |
 
 
 ![SWE Docs Checker](https://github.com/RedRoundRobin/swe-docs/workflows/SWE%20Docs%20Checker/badge.svg)
@@ -43,6 +43,11 @@ Informatica, Università degli Studi di Padova
 ![SWE Telegram CI](https://github.com/RedRoundRobin/swe-telegram/workflows/SWE%20Telegram%20CI/badge.svg) 
 
 ![SWE Web App CI](https://github.com/RedRoundRobin/swe-webapp/workflows/SWE%20Web%20App%20CI/badge.svg)
+
+
+### Licenza 
+
+GNU General Public License v3.0
 
 
 ### Crediti
