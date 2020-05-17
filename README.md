@@ -6,7 +6,7 @@ Progetto di Ingegneria del Software - Things Relationship Management (2019-2020)
 
 Informatica, Università degli Studi di Padova
 
-[www.redroundrobin.site](https://www.redroundrobin.site) - Gruppo 6
+[www.redroundrobin.site](http://maxelweb.github.io/swe-site) - Gruppo 6
 
 
 ---
@@ -29,12 +29,12 @@ Informatica, Università degli Studi di Padova
 
 | Sub-module | Cartella | Versione software  |
 |---|---|---|
-| [swe-docs](http://docs.redroundrobin.site) | `documentazione/`    | :heavy_check_mark:    |
-| [swe-api](http://api.redroundrobin.site)   |       `api/`         | `v1.0.0-stable` :heavy_check_mark:  |
-| [swe-gateway](http://gateway.redroundrobin.site) | `gateway/`     | `v1.0.0-stable` :heavy_check_mark:  |
-| [swe-kafka-db](http://kafkadb.redroundrobin.site) | `kafka-db/`   | `v1.0.0-stable` :heavy_check_mark:  |
-| [swe-webapp](http://webapp.redroundrobin.site) |    `webapp/`     | `v1.0.0-stable` :heavy_check_mark:  |
-| [swe-telegram](http://telegram.redroundrobin.site) | `telegram/`  | `v1.0.0-stable` :heavy_check_mark:  |
+| [swe-docs](https://github.com/RedRoundRobin/swe-docs) | `documentazione/`    | :heavy_check_mark:    |
+| [swe-api](https://github.com/RedRoundRobin/swe-api)   |       `api/`         | `v1.0.0-stable` :heavy_check_mark:  |
+| [swe-gateway](https://github.com/RedRoundRobin/swe-gateway) | `gateway/`     | `v1.0.0-stable` :heavy_check_mark:  |
+| [swe-kafka-db](https://github.com/RedRoundRobin/swe-kafka-db) | `kafka-db/`   | `v1.0.0-stable` :heavy_check_mark:  |
+| [swe-webapp](https://github.com/RedRoundRobin/swe-webapp) |    `webapp/`     | `v1.0.0-stable` :heavy_check_mark:  |
+| [swe-telegram](https://github.com/RedRoundRobin/swe-telegram) | `telegram/`  | `v1.0.0-stable` :heavy_check_mark:  |
 
 
 ![SWE Docs Checker](https://github.com/RedRoundRobin/swe-docs/workflows/SWE%20Docs%20Checker/badge.svg)
